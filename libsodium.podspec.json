@@ -17,7 +17,6 @@
     "src/libsodium/**/*.{c,h,data}"
   ],
   "public_header_files": "src/libsodium/include/sodium/**/*.h",
-  "prepare_command": "sh ./configure --disable-dependency-tracking",
   "requires_arc": false,
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/libsodium/src/libsodium/include/sodium\" \"$(PODS_ROOT)/libsodium/src/libsodium/include\"",
